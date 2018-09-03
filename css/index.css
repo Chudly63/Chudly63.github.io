@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E6ECF0;
+}
+
 .header{
     margin: none;
+    padding: none;
     top: 0; left: 0;
-    position: fixed;
     width : 100%; height : 30vw;
     background-image : url("../img/background.jpeg");
     background-size : cover;
@@ -43,3 +49,29 @@
     width: 25%;
 }
 
+.quickbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+.quickbar li{
+    display: inline-block;
+}
+.quickbar a{
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 1vw;
+}
+.quickbar a:hover{
+    background-color: #111;
+    color:white;
+}
+
+@media screen and (max-width: 600px){
+    .quickbar li {display: block;}
+}
