@@ -22,7 +22,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #E6ECF0;
+    background-color: #D6DCE0;
 }
 
 .header{
@@ -95,6 +95,7 @@ body{
 #about{
     padding: 1vw 8vw;
     font-family: DroidSans;
+    background-color: #E6ECF0;
 }
 #about p{
     font-size: 20px;
@@ -102,6 +103,53 @@ body{
 }
 #about a{
     color: black;
+}
+
+#projects{
+    padding: 1vw 8vw;
+    border-top: 1px solid black;
+    font-family: DroidSans;
+    border: 1px solid white;
+    height: 40vw;
+}
+.project{
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+    width: 30%;
+    height: 15vw;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+.project p{
+    font-size: .8vw;
+}
+.project h2{
+    font-size: 1.3vw;
+}
+.project img{
+    float: left;
+    height: 4vw;
+    width: 4vw;
+}
+
+.row::after{
+    clear: both;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.center{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#footer{
+    text-align: center;
 }
 
 @media screen and (max-width: 600px){
