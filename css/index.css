@@ -76,7 +76,7 @@ body{
 }
 .quickbar li{
     display: inline-block;
-    width: 32%;
+    width: 49%;
 }
 .quickbar a{
     display: block;
